@@ -1,0 +1,293 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/* navbar starts */
+.navbar ul {
+    display: flex;
+    margin-left: 330px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#888888;
+    margin: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar{
+    background-color: rgb(240, 240, 245);
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.navbar h1{
+    color:rgb(78, 69, 69);
+    font-size: 36px;
+    font-weight:400;
+    margin-left: 10px;
+    font-family: Eras ITC;
+}
+.link1{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom: 10px;
+}
+.link{
+    transition: all 0.3s;
+
+}
+.link:hover{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom:10px ;
+}
+.medialinks{
+    display: flex;
+    text-align: right;
+    margin-left: 280px;
+   
+}
+.medialinks i{
+    transition: all 0.5s;
+
+}
+
+.medialinks i:hover{
+    color: #34b7a7;
+}
+.medialinks a{
+    font-size: 20px;
+    text-decoration: none;
+    color:gray;
+    margin: 5px;
+}
+/* navbar ends */
+
+/* SERVICES starts */
+.SERVICES{
+    margin: 40px 100px;
+
+}
+.SERVICES h1{
+    text-align: center;  
+
+}
+.SERVICES hr{
+    width: 60px;
+    background-color: #34b7a7;
+    height: 4px;
+     margin:20px auto; 
+    text-align: center;
+
+}
+.SERVICES p{
+    color: #888888;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.SERVICESchild{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.SERVICESbox1 , .SERVICESbox2 ,.SERVICESbox3,.SERVICESbox4,.SERVICESbox5,.SERVICESbox6{
+    margin: 15px;
+    width: 350px;
+    height: 340px;
+    text-align: center;
+    padding: 70px 30px 80px 30px;
+      background: rgb(255, 255, 255);
+    box-shadow: 0px 0 35px 0 rgb(0 0 0 / 8%);
+    border-radius: 10px;
+}
+
+.SERVICESbox1 a ,.SERVICESbox2 a,.SERVICESbox3 a,.SERVICESbox4 a,.SERVICESbox5 a,.SERVICESbox6 a {
+    text-decoration: none;
+    color: #444040;
+    
+}
+.SERVICESbox1 h2,.SERVICESbox2 h2,.SERVICESbox3 h2,.SERVICESbox4 h2,.SERVICESbox5 h2,.SERVICESbox6 h2{
+    margin: 15px;
+
+}
+.SERVICESbox1 p,.SERVICESbox2 p,.SERVICESbox3 p,.SERVICESbox4 p,.SERVICESbox5 p,.SERVICESbox6 p{
+    line-height: 24px;
+    font-size: 15px;
+    color: gray;
+    text-align: center;
+
+}
+.SERVICESbox1 i{
+    color:blue;
+    transition: all 0.6s;
+}
+.SERVICESbox1:hover .SERVICESicon{
+    transition: all 0.6s;
+
+}
+.SERVICESbox1:hover .SERVICESicon{
+    background-color: rgb(46, 3, 236);
+}
+
+.SERVICESbox1:hover .SERVICESicon i{
+    color: white;
+}
+
+.SERVICESbox2 i{
+    color:orange;
+    transition: all 0.6s;
+}
+
+.SERVICESbox2:hover .SERVICESicon{
+    transition: all 0.6s;
+
+}
+.SERVICESbox2:hover .SERVICESicon{
+    background-color: orange;
+}
+
+.SERVICESbox2:hover .SERVICESicon i{
+    color: white;
+}
+.SERVICESbox3 i{
+    color:rgb(240, 63, 137);
+    transition: all 0.3s;
+}
+.SERVICESbox3:hover .SERVICESicon{
+    transition: all 0.6s;
+
+}
+.SERVICESbox3:hover .SERVICESicon{
+    background-color:rgb(240, 63, 137) ;
+}
+
+.SERVICESbox3:hover .SERVICESicon i{
+    color: white;
+}
+
+.SERVICESbox4 i{
+    color: orange;
+    transition: all 0.3s;
+}
+.SERVICESbox4:hover .SERVICESicon{
+    transition: all 0.6s;
+
+}
+.SERVICESbox4:hover .SERVICESicon{
+    background-color:orange ;
+}
+
+.SERVICESbox4:hover .SERVICESicon i{
+    color: white;
+}
+
+
+
+.SERVICESbox5 i{
+    color: rgb(250, 103, 103);
+    transition: all 0.3s;
+}
+.SERVICESbox5:hover .SERVICESicon{
+    transition: all 0.6s;
+
+}
+.SERVICESbox5:hover .SERVICESicon{
+    background-color: rgb(250, 103, 103);
+}
+
+.SERVICESbox5:hover .SERVICESicon i{
+    color: white;
+}
+
+.SERVICESbox6 i{
+    color: #34b7a7;
+    transition: all 0.3s;
+}
+.SERVICESbox6:hover .SERVICESicon{
+    transition: all 0.6s;
+
+}
+.SERVICESbox6:hover .SERVICESicon{
+    background-color: #34b7a7;
+}
+
+.SERVICESbox6:hover .SERVICESicon i{
+    color: white;
+}
+
+
+
+
+
+.SERVICESicon{
+    /* border: 1px solid green; */
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius:30px ;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 20px;
+    margin-left: 100px;
+    background-color: rgb(243, 237, 237);
+}
+
+.SERVICESicon i{
+    margin-top: 35px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* SERVICES ends */
+/* footer start */
+.footer{
+    align-items: center;
+    background-color: #e9e8e6;
+    background-size: cover;
+    text-align: center;
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #535050;
+}
+.footer a{
+    text-decoration: none;
+    color:#34b7a7;
+}
+/* footer ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

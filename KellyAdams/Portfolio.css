@@ -1,0 +1,365 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/* navbar starts */
+.navbar ul {
+    display: flex;
+    margin-left: 330px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#888888;
+    margin: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.navbar{
+    background-color: rgb(240, 240, 245);
+    background-size: cover;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar h1{
+    color:rgb(78, 69, 69);
+    font-size: 36px;
+    font-weight:400;
+    margin-left: 10px;
+    font-family: Eras ITC;
+}
+.link1{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom: 10px;
+}
+.link{
+    transition: all 0.3s;
+
+}
+.link:hover{
+    color: black;
+    border-bottom: 2px solid #34b7a7;
+    padding-bottom:10px ;
+}
+.medialinks{
+    display: flex;
+    text-align: right;
+    margin-left: 280px;
+   
+}
+.medialinks i{
+    transition: all 0.5s;
+
+}
+
+.medialinks i:hover{
+    color: #34b7a7;
+}
+.medialinks a{
+    font-size: 20px;
+    text-decoration: none;
+    color:gray;
+    margin: 5px;
+}
+/* navbar ends */
+
+ /* PORTFOLIO starts  */
+ .PORTFOLIO{
+    margin: 40px 100px;
+
+ }
+ .PORTFOLIOh1{
+    text-align: center; 
+
+ }
+ .PORTFOLIOhr{
+    width: 60px;
+    background-color: #34b7a7;
+    height: 4px;
+     margin:20px auto; 
+    text-align: center;
+
+ }
+ .PORTFOLIOmain{
+    color: #888888;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+
+ }
+ .PORTFOLIOlink{
+    text-align: center;
+
+ }
+ .PORTFOLIOlink a{
+     text-decoration: none;
+     font-size: 13px;
+     font-weight: 500;
+   
+ }
+ .PORTFOLIOlink .one{
+     color: white;
+     border: 2px solid #34b7a7;
+     padding: 5px 15px;
+     background-color: #34b7a7;
+     border-radius: 50px;
+ }
+ .PORTFOLIOlink .two{
+    padding: 20px;
+
+ }
+ .PORTFOLIOlink .two:hover{
+    color: white;
+    border: 2px solid #34b7a7;
+    padding: 5px 15px;
+    background-color: #34b7a7;
+    border-radius: 50px;
+}
+
+.PORTFOLIOchild{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.PORTFOLIOtext h4 {
+    margin: 10px 20px;
+    color:black;
+    font-size: 20px;
+     visibility: hidden; 
+    transition: all 0.3s;
+}
+.PORTFOLIOtext i {
+    color: rgb(41, 38, 38);
+    font-size: 13px;
+    margin: 10px 20px;
+     visibility: hidden;  
+    transition: all 0.3s;
+
+}
+.PORTFOLIOtext a i{
+    margin-left: 10px; 
+    color: black;
+    font-size: 23px;
+    margin-left: 25px;
+     visibility: hidden; 
+    transition: all 0.3s;
+
+}
+.PORTFOLIOtext a i:hover{
+    color: #34b7a7;
+}
+
+
+
+
+    .PORTFOLIOchild{
+        position: relative;
+        margin-top: 30px;
+    }
+    .PORTBOX1 {
+        position: relative;
+        transition: all 0.3s;
+
+    }
+
+    .PORTBOX1 .PORTFOLIOtext{
+        position: absolute;
+        top:230px;
+
+    }
+     .PORTBOX1:hover .PORTFOLIOtext h4, .PORTBOX1:hover .PORTFOLIOtext i, .PORTBOX1:hover .PORTFOLIOtext a i{ 
+        visibility: visible;
+    } 
+    .PORTBOX1 img{
+        width: 350px;
+        height: 360px;
+
+    }
+    .PORTBOX2{
+        transition: all 0.3s;
+    
+    }
+    .PORTBOX2 .PORTFOLIOtext{
+        position: absolute;
+        top:110px;
+
+    }
+    .PORTBOX2:hover .PORTFOLIOtext h4, .PORTBOX2:hover .PORTFOLIOtext i, .PORTBOX2:hover .PORTFOLIOtext a i{ 
+        visibility: visible;
+    } 
+    .PORTBOX2 img{
+        width: 350px;
+        height: 240px;
+
+    }
+    .PORTBOX3{
+        transition: all 0.3s;
+
+    }
+    .PORTBOX3 .PORTFOLIOtext{
+        position: absolute;
+        top:90px;
+
+    }
+    .PORTBOX3:hover .PORTFOLIOtext h4, .PORTBOX3:hover .PORTFOLIOtext i, .PORTBOX3:hover .PORTFOLIOtext a i{ 
+        visibility: visible;
+    } 
+    .PORTBOX3 img{
+        width: 350px;
+        height: 220px;
+
+    }
+    .PORTBOX4{
+        position: absolute;
+        left: 17px;
+        top: 390px;
+        transition: all 0.3s;
+        
+
+    }
+    .PORTBOX4 .PORTFOLIOtext{
+        position: absolute;
+        top:470px;
+
+    }
+    .PORTBOX4:hover .PORTFOLIOtext h4, .PORTBOX4:hover .PORTFOLIOtext i, .PORTBOX4:hover .PORTFOLIOtext a i{ 
+        visibility: visible;
+    } 
+    .PORTBOX4 img{
+        width: 350px;
+        height: 600px;
+
+    }
+    .PORTBOX5{
+        position: absolute;
+        left: 400px;
+        top: 275px;
+        transition: all 0.3s;
+
+    }
+    .PORTBOX5 .PORTFOLIOtext{
+        position: absolute;
+        top:470px;
+
+    }
+    .PORTBOX5:hover .PORTFOLIOtext h4, .PORTBOX5:hover .PORTFOLIOtext i, .PORTBOX5:hover .PORTFOLIOtext a i{ 
+        visibility: visible;
+    }
+    
+    .PORTBOX5 img{
+        width: 350px;
+        height: 600px;
+
+    }
+    .PORTBOX6{
+    position: absolute;
+    top: 255px;
+    left: 783px;
+    transition: all 0.3s;
+
+    }
+    .PORTBOX6 .PORTFOLIOtext{
+        position: absolute;
+        top:110px;
+
+    }
+    .PORTBOX6:hover .PORTFOLIOtext h4, .PORTBOX6:hover .PORTFOLIOtext i, .PORTBOX6:hover .PORTFOLIOtext a i{ 
+        visibility: visible;
+    }
+    .PORTBOX6 img{
+        width: 350px;
+        height: 230px;
+
+    }
+    .PORTBOX7{
+        position:absolute;
+        top: 520px;
+        left: 783px;
+        transition: all 0.3s;
+    }
+    .PORTBOX7 .PORTFOLIOtext{
+        position: absolute;
+        top:110px;
+
+    }
+    .PORTBOX7:hover .PORTFOLIOtext h4, .PORTBOX7:hover .PORTFOLIOtext i, .PORTBOX7:hover .PORTFOLIOtext a i{ 
+        visibility: visible;
+    }
+    .PORTBOX7 img{
+        width: 350px;
+        height: 230px;
+
+    }
+    .PORTBOX8{
+        position: absolute;
+        top:784px ;
+        left: 783px;
+        transition: all 0.3s;
+        
+    }
+    .PORTBOX8 .PORTFOLIOtext{
+        position: absolute;
+        top:110px;
+
+    }
+    .PORTBOX8:hover .PORTFOLIOtext h4, .PORTBOX8:hover .PORTFOLIOtext i, .PORTBOX8:hover .PORTFOLIOtext a i{ 
+        visibility: visible;
+    }
+    .PORTBOX8 img{
+        width: 350px;
+        height: 230px;
+
+    }
+    .PORTBOX9{
+     position: absolute;
+     left: 400px;
+     top: 910px;
+     transition: all 0.3s;
+
+    }
+    .PORTBOX9 .PORTFOLIOtext{
+        position: absolute;
+        top:120px;
+
+    }
+    .PORTBOX9:hover .PORTFOLIOtext h4, .PORTBOX9:hover .PORTFOLIOtext i, .PORTBOX9:hover .PORTFOLIOtext a i{ 
+        visibility: visible;
+    }
+    .PORTBOX9 img{
+        width: 350px;
+        height: 240px;
+
+    }
+
+
+ /* PORTFOLIO ends */
+ 
+/* footer start */
+.footer{
+    align-items: center;
+    background-color: #e9e8e6;
+    background-size: cover;
+    text-align: center;
+    margin-top:840px;
+    padding: 30px;
+    margin-bottom: -32px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #535050;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+.footer a{
+    text-decoration: none;
+    color:#34b7a7;
+}
+/* footer ends */
